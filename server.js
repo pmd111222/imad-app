@@ -17,7 +17,7 @@ app.get('/ui/style.css', function (req, res) {
   //res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 app.get('/', function (req, res) {
   
-res.sendFile('no image here!');
+res.sendText('no image here!');
     
 });
 
